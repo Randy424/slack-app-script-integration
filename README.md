@@ -21,7 +21,7 @@ _Slack integration script for Google sheets/docs_
   - `clasp pull [project -id]`
 - Push up changes
   - `clasp push`
-  - May require enabling clasp API for your google account via web browser
+  - May require enabling clasp API for your google account via web browser, in this case you'll be directed to a browser automatically.
 
 ## Overview
 
@@ -31,4 +31,6 @@ _Slack integration script for Google sheets/docs_
 
 ### For spreadsheet users
 
-- Simply update the table manually
+- Connected Spreadsheet (https://docs.google.com/spreadsheets/d/1dhRKjTKjokHHZ8HhBc3eNDfydU328fYdXSV6PvEteTU/edit#gid=0)
+- On the sheet titled "Data", simply update the table manually and use the buttons below the table to trigger a notification push to Slack or to archive a table.
+- "Archive" copies the current table + notes to the sheet titled "Archive". This feature was added to store previously published information for posterity.
