@@ -4,6 +4,10 @@ _Slack integration script for Google sheets/docs_
 
 ## Prerequisites
 
+### Node/NPM
+
+- node -v
+
 ### Clasp
 
 - Official clasp repo (https://github.com/google/clasp)
