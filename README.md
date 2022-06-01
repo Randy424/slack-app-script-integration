@@ -33,6 +33,8 @@ _Slack integration script for Google sheets/docs_
 
 - The current integration was designed to pull input from a google spreadsheet, in the form of a table, via the google spreadsheet API. Once consumed, the spreadsheet data is reorganized into a list of slack block objects and submitted to the slack webhook we have created for the workspace.
 
+- Google App Scripts also provides time sensitive triggers for srcipt execution. We have one such trigger pointed at our "buildReport" function. The trigger executes every day between 7am and 8am EST. These triggers can be further customized to execute at different time intervals and upon successful edit of the active spreadsheet.
+
 ### For spreadsheet users
 
 - Connected Spreadsheet (https://docs.google.com/spreadsheets/d/1dhRKjTKjokHHZ8HhBc3eNDfydU328fYdXSV6PvEteTU/edit#gid=0)
